@@ -36,3 +36,7 @@ Product Manager / Product Owner roles in Hamburg and Berlin, each checked for wh
 - LinkedIn job pages cannot be scraped (Firecrawl rejects linkedin.com). Each LinkedIn posting was found again on the employer's careers page or a job aggregator through a Firecrawl search, then scraped. Matching was by company and title; the Mind Detect → lemon.markets match is probable, not confirmed.
 - One person coded the postings by reading them. Treat counts as a structured reading, not a measurement.
 - Firecrawl cost for this screen: about 70 credits (searches 2 credits each, scrapes 1 credit each).
+
+## Coded descriptions (readiness report)
+
+`descriptions_coded.csv` has 49 full job descriptions (Hamburg 17, Berlin 27, remote 5), each coded 0/1 on 21 competencies (stakeholder … okr_named). They come from the 18-posting Indeed sample, 18 language-screen rows, and 13 new Indeed postings. Columns `archetype` and `german` hold one reader's classification. This dataset feeds the "PM Market Readiness Report" artifact. Indeed lookups cost 0 Firecrawl credits.
