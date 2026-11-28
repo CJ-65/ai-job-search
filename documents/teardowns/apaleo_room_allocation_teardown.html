@@ -1,0 +1,68 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Room Allocation Agent: Eval and Trust Sketch</title>
+<style>
+@page{size:A4;margin:13mm 14mm}
+:root{--ink:#16202c;--ink2:#4d5a68;--line:#d6dce3;--acc:#1b64be;--soft:#eef4fc}
+body{font-family:"Inter","Segoe UI",Arial,sans-serif;font-size:8.6pt;line-height:1.38;color:var(--ink);margin:0}
+h1{font-size:15pt;margin:0 0 1mm;letter-spacing:-.01em}
+h2{font-size:9.4pt;margin:3.2mm 0 1.2mm;color:var(--acc);text-transform:uppercase;letter-spacing:.05em}
+p{margin:0 0 1.4mm}
+.meta{color:var(--ink2);font-size:7.8pt;margin-bottom:2mm}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+ul{margin:0;padding-left:4mm} li{margin:0 0 .8mm}
+table{width:100%;border-collapse:collapse;font-size:7.7pt}
+th,td{border-bottom:1px solid var(--line);padding:1.1mm 1.4mm;text-align:left;vertical-align:top}
+th{font-size:7pt;text-transform:uppercase;letter-spacing:.04em;color:var(--ink2)}
+td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.box{background:var(--soft);padding:2mm 3mm;border-radius:2mm}
+.src{font-size:6.8pt;color:var(--ink2);margin-top:2.5mm}
+b{font-weight:600}
+</style></head><body>
+<h1>Room Allocation Agent: an eval and trust sketch</h1>
+<div class="meta">Prepared by Chandan Jaiswal for the apaleo product team · November 2026 · Built from public information only; assumptions are marked as such.</div>
+
+<div class="box"><b>What is public.</b> The agent reads guest comments and assigns rooms by guest preferences, group requirements and operational priorities. It cut a task of up to 45 minutes per property per day to about one minute at Cocoon Munich Hauptbahnhof (103 rooms), with rollout to 10 properties and 700+ rooms planned. It went from concept to live operations in under three weeks (12 May 2026). Neither a quality metric nor a human approval step is described publicly. That is the gap this note addresses.</div>
+
+<div class="grid">
+<div>
+<h2>Likely failure modes (assumptions)</h2>
+<ul>
+<li><b>Missed preference:</b> abbreviations, mixed German and English, or a request buried in a long comment.</li>
+<li><b>Invented preference:</b> the agent infers a wish the guest never stated.</li>
+<li><b>Hard constraint broken:</b> accessibility, connecting rooms for families, a group split across floors.</li>
+<li><b>Silent upgrade:</b> a better room category assigned without a rate decision, leaking revenue.</li>
+<li><b>Stale plan:</b> cancellations, out-of-order rooms or early check-ins after the agent has run.</li>
+<li><b>Sensitive data:</b> comments that mention health or mobility are special-category data under GDPR.</li>
+</ul>
+<h2>Where a person reviews</h2>
+<ul>
+<li><b>Auto-assign</b> when no hard constraint is present and confidence is high.</li>
+<li><b>Route to the front desk</b> on any accessibility or health mention, groups above a set size, conflicting constraints, low confidence, or a category change.</li>
+<li><b>Log every override</b> with a reason code; overrides become the next eval items.</li>
+</ul>
+</div>
+<div>
+<h2>A 20-item starter eval set</h2>
+<table><thead><tr><th>Case type</th><th class="n">Items</th><th>Pass if</th></tr></thead><tbody>
+<tr><td>Explicit preference (high floor, quiet, twin beds)</td><td class="n">4</td><td>Preference met or flagged as unmet</td></tr>
+<tr><td>Vague or implied wish ("travelling with a baby")</td><td class="n">3</td><td>Correct room type, no over-reading</td></tr>
+<tr><td>German, English, mixed, abbreviations</td><td class="n">3</td><td>Same result as the plain-English twin case</td></tr>
+<tr><td>Groups and adjacency</td><td class="n">3</td><td>Group kept together within constraints</td></tr>
+<tr><td>Accessibility and health mentions</td><td class="n">3</td><td>Always routed to a person, never auto-assigned</td></tr>
+<tr><td>Conflict with operations (out-of-order room, late change)</td><td class="n">2</td><td>No assignment to unavailable rooms</td></tr>
+<tr><td>No comment (control)</td><td class="n">2</td><td>No preference invented</td></tr>
+</tbody></table>
+<h2>Metrics</h2>
+<ul>
+<li><b>The one I would own:</b> share of allocations the front desk accepts without change.</li>
+<li><b>Guardrail:</b> hard-constraint violations, target zero.</li>
+<li><b>Quality:</b> preference hit rate; invented-preference rate.</li>
+<li><b>Value:</b> minutes saved per property per day (already public: 45 to about 1).</li>
+</ul>
+</div>
+</div>
+
+<h2>Why this is relevant to me</h2>
+<p>At Wolters Kluwer I took TeamMate Document Linker from concept to market. It is an Azure AI product that matches audit evidence across 100–500 PDFs using ML confidence scoring with an audit trail, and it cut matching time from hours to seconds. Before product, I spent five years in quality engineering, designing test coverage and triaging defects. That is the same skill as building a golden set and a failure taxonomy for an agent.</p>
+
+<div class="src">Sources: apaleo customer story "apaleo and Cocoon Hotels launch Room Allocation AI Agent" (12 May 2026). URL: apaleo.com/customer-stories/hotel-groups-chains/apaleo-and-Cocoon-Hotels-launch-Room-Allocation-AI-Agent</div>
+</body></html>
