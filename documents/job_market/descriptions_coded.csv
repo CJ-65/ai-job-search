@@ -1,50 +1,50 @@
-id,company,title,city,source,archetype,german,years_min,stakeholder,roadmap,kpis,ab_test,ai_tool_builder,ai_in_work,ai_ml_product,llm_agents,eval_hitl_trust,technical_apis,sql_python,domain_must,commercial,regulatory_privacy,okr_named,agile,people_mgmt,customer_facing,pushback_named,hands_on_attr,ambiguity_attr
-i01,Serrala,Product Manager (Payments),Hamburg,Indeed,Commercial PM,English is enough,7,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0
-i02,EDEKA IT,Chief Product Owner App & Web,Hamburg,Indeed,Generalist / leadership,German required,,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0
-i03,Hugendubel Digital,Produktmanager Search & Discovery,Hamburg,Indeed,Consumer / e-commerce PM,German required (posting in German),,1,1,1,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
-i04,adjoe,Technical Product Lead,Hamburg,Indeed,AI-native builder,English is enough,5,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,1,0,0,1,1
-i05,Oldendorff Carriers,Data Product Manager Analytics,Hamburg,Indeed,Data PM,English is enough,3,1,1,1,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1
-i06,LAIQON,Product Manager,Hamburg,Indeed,Generalist / leadership,German required,0,1,1,1,0,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0
-i07,RENEWA,Junior Product Owner (KI-Tools),Hamburg,Indeed,AI-native builder,German required (posting in German),3,1,1,0,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0
-i08,Studiengemeinschaft Kamprath,KI Manager Automation & Agents,Hamburg,Indeed,AI-native builder,German required,,1,0,0,0,1,1,1,1,0,1,1,0,0,1,0,0,0,0,0,1,0
-i09,Rise Technical (agency),(Senior) Product Owner Industrial SaaS,Hamburg,Indeed,Delivery / domain PO,German required,,1,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,0,0
-i10,OTTO DOERNER,Product Owner Kundenportale,Hamburg,Indeed,Delivery / domain PO,German required (posting in German),,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0
-i11,akeno,Product Owner Production Planning,Hamburg,Indeed,Delivery / domain PO,German required,5,1,1,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,1,1,1
-i12,Everphone,(Senior) Product Owner Platform,Berlin,Indeed,AI-native builder,German required,3,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,1,0,1,0
-i13,Menlo79,Senior PM (AI-native Builder),Berlin,Indeed,AI-native builder,German required,,1,1,1,0,1,1,1,0,0,1,0,0,1,0,0,0,1,1,0,1,0
-i14,OTERA,Technical PM Agentic AI Platform,Berlin,Indeed,AI product / platform PM,English is enough,5,1,1,1,0,0,0,1,1,1,1,1,0,0,0,0,1,0,1,1,0,1
-i15,voize,Senior PM Machine Learning,Berlin,Indeed,AI product / platform PM,German a plus,,1,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0
-i16,Wolt,Product Manager Discovery,Berlin,Indeed,Consumer / e-commerce PM,English is enough,,1,1,1,1,0,0,1,1,0,0,0,1,0,0,1,0,0,1,0,0,1
-i17,EuraTel,Manager KI-Produkte,Remote / other,Indeed,Commercial PM,German required (posting in German),,1,0,1,0,0,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0
-i18,PERGOLUX,Senior Product Manager eCommerce,Berlin,Indeed,Consumer / e-commerce PM,English is enough,5,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-l009,ToolTime,Product Manager - Expansion Squad,Berlin,LinkedIn,AI-native builder,German a plus,3,1,1,1,1,1,1,1,0,1,1,0,0,1,0,0,0,0,1,1,0,0
-l019,Tourlane,Product Manager - Agent Productivity,Berlin,LinkedIn,AI-native builder,German a plus,4,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0
-l039,Choco,Senior Product Manager (E-Commerce),Berlin,LinkedIn,Consumer / e-commerce PM,English is enough,5,1,1,1,0,0,1,0,0,0,1,0,1,1,0,0,0,0,1,0,0,1
-l106,SWARCO ITS,Product Owner Traffic Domain,Berlin,LinkedIn,Delivery / domain PO,German a plus,5,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,0,0
-l116,Kolibri Games,"Senior PM, LiveOps",Berlin,LinkedIn,Consumer / e-commerce PM,English is enough,5,1,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0
-l121,JustPlay,Senior PM - Fraud,Berlin,LinkedIn,Technical / platform PM,English is enough,4,1,1,1,1,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,1,0
-l157,Lloyds Bank Deutschland,Senior Product Owner - Digital Channels,Berlin,LinkedIn,Delivery / domain PO,German a plus,5,1,1,1,0,0,0,0,0,0,1,0,1,0,1,0,1,1,0,0,0,0
-l169,Distribusion Technologies,"Senior Technical PM, Rail Integrations",Berlin,LinkedIn,Technical / platform PM,English is enough,4,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0
-l050,Xcede (client unnamed),Senior / Lead Technical PM - AI Trust & Identity,Berlin,LinkedIn,AI product / platform PM,English is enough,5,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,1,1
-l165,GLS/NXT,Product Owner Locker.OS,Berlin,LinkedIn,Delivery / domain PO,German a plus,4,1,1,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0
-l096,Everphone,(Senior) Product Owner - Odoo ERP,Berlin,LinkedIn,AI-native builder,German required,3,1,1,1,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0
-l099,Edel (earMUSIC),Product Manager Frontline Releases,Hamburg,LinkedIn,Commercial PM,German required,,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
-l120,smartclip,Technical Product Owner - Full Stack,Berlin,LinkedIn,Technical / platform PM,German required (posting in German),,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,1,0,0,0,1,0
-l136,TAWO,Product Owner AI & Construction Software,Berlin,LinkedIn,AI-native builder,German required,,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-l159,Kuro,Product Manager (AI platform),Berlin,LinkedIn,AI product / platform PM,German required,5,1,1,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,1
-l164,cadooz,(Senior) Product Owner Digital Products,Hamburg,LinkedIn,Delivery / domain PO,German required,,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0
-l173,metiundo,Senior PM - IoT Submetering,Berlin,LinkedIn,Technical / platform PM,German required,5,1,1,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,0,0
-l046,lemon.markets (via Mind Detect),Senior PM - Investing,Berlin,LinkedIn,Technical / platform PM,German required,4,1,1,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,1,0,1
-n01,Flemming Dental,"Senior PO, Operations Software & APIs",Hamburg,Indeed,Delivery / domain PO,German a plus,,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0
-n02,sunzinet,Product Owner - Business Platforms,Hamburg,Indeed,Delivery / domain PO,German required,,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0
-n03,Remazing,Senior Product Manager (SaaS),Hamburg,Indeed,Generalist / leadership,German required,3,1,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0
-n04,Quantum computing scale-up (via Leopold Advisors),Product Manager,Hamburg,Indeed,Technical / platform PM,German a plus,,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1
-n05,apaleo,"Senior PM, AI Products & Agentic Hospitality",Remote / other,Indeed,AI product / platform PM,English is enough,6,1,1,1,0,0,1,1,1,1,1,0,0,1,0,0,0,0,1,1,1,1
-n06,Upsun,Product Manager (cloud platform),Remote / other,Indeed,AI product / platform PM,English is enough,,1,1,1,0,1,1,1,1,0,1,1,1,0,0,0,0,0,1,0,1,1
-n07,Kaufland e-commerce,"Senior PM, Product Knowledge & Intelligence",Remote / other,Indeed,AI product / platform PM,English is enough,,1,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,1
-n08,Rhenus Group,IT Product Manager,Berlin,Indeed,Delivery / domain PO,German required (posting in German),,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0
-n09,Bundesdruckerei,Product Manager (Digital Financial Services),Berlin,Indeed,Delivery / domain PO,German required,,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,0,0
-n10,Median Kliniken (corporate startup),Product Manager - HealthTech,Berlin,Indeed,Generalist / leadership,German required,5,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0
-n11,NetBird,Technical Product Owner,Berlin,Indeed,Technical / platform PM,English is enough,3,1,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,1,1,0,0
-n12,tink,E-Commerce Product Owner,Berlin,Indeed,Consumer / e-commerce PM,German required,,1,1,1,1,0,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0
-n13,Emma - The Sleep Company,Senior Data PM - Marketing,Remote / other,Indeed,Data PM,English is enough,5,1,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,1
+id,company,title,city,source,archetype,german,years_min,stakeholder,roadmap,kpis,ab_test,ai_tool_builder,ai_in_work,ai_ml_product,llm_agents,eval_hitl_trust,technical_apis,sql_python,domain_must,commercial,regulatory_privacy,okr_named,agile,people_mgmt,customer_facing,pushback_named,hands_on_attr,ambiguity_attr,industry
+i01,Serrala,Product Manager (Payments),Hamburg,Indeed,Commercial PM,English is enough,7,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,saas
+i02,EDEKA IT,Chief Product Owner App & Web,Hamburg,Indeed,Generalist / leadership,German required,,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,ecom
+i03,Hugendubel Digital,Produktmanager Search & Discovery,Hamburg,Indeed,Consumer / e-commerce PM,German required (posting in German),,1,1,1,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,ecom
+i04,adjoe,Technical Product Lead,Hamburg,Indeed,AI-native builder,English is enough,5,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,1,0,0,1,1,tech
+i05,Oldendorff Carriers,Data Product Manager Analytics,Hamburg,Indeed,Data PM,English is enough,3,1,1,1,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,saas
+i06,LAIQON,Product Manager,Hamburg,Indeed,Generalist / leadership,German required,0,1,1,1,0,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,saas
+i07,RENEWA,Junior Product Owner (KI-Tools),Hamburg,Indeed,AI-native builder,German required (posting in German),3,1,1,0,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0,saas
+i08,Studiengemeinschaft Kamprath,KI Manager Automation & Agents,Hamburg,Indeed,AI-native builder,German required,,1,0,0,0,1,1,1,1,0,1,1,0,0,1,0,0,0,0,0,1,0,b2c
+i09,Rise Technical (agency),(Senior) Product Owner Industrial SaaS,Hamburg,Indeed,Delivery / domain PO,German required,,1,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,0,0,saas
+i10,OTTO DOERNER,Product Owner Kundenportale,Hamburg,Indeed,Delivery / domain PO,German required (posting in German),,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,saas
+i11,akeno,Product Owner Production Planning,Hamburg,Indeed,Delivery / domain PO,German required,5,1,1,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,1,1,1,saas
+i12,Everphone,(Senior) Product Owner Platform,Berlin,Indeed,AI-native builder,German required,3,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,1,0,1,0,saas
+i13,Menlo79,Senior PM (AI-native Builder),Berlin,Indeed,AI-native builder,German required,,1,1,1,0,1,1,1,0,0,1,0,0,1,0,0,0,1,1,0,1,0,saas
+i14,OTERA,Technical PM Agentic AI Platform,Berlin,Indeed,AI product / platform PM,English is enough,5,1,1,1,0,0,0,1,1,1,1,1,0,0,0,0,1,0,1,1,0,1,tech
+i15,voize,Senior PM Machine Learning,Berlin,Indeed,AI product / platform PM,German a plus,,1,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,saas
+i16,Wolt,Product Manager Discovery,Berlin,Indeed,Consumer / e-commerce PM,English is enough,,1,1,1,1,0,0,1,1,0,0,0,1,0,0,1,0,0,1,0,0,1,b2c
+i17,EuraTel,Manager KI-Produkte,Remote / other,Indeed,Commercial PM,German required (posting in German),,1,0,1,0,0,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,saas
+i18,PERGOLUX,Senior Product Manager eCommerce,Berlin,Indeed,Consumer / e-commerce PM,English is enough,5,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,ecom
+l009,ToolTime,Product Manager - Expansion Squad,Berlin,LinkedIn,AI-native builder,German a plus,3,1,1,1,1,1,1,1,0,1,1,0,0,1,0,0,0,0,1,1,0,0,saas
+l019,Tourlane,Product Manager - Agent Productivity,Berlin,LinkedIn,AI-native builder,German a plus,4,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,b2c
+l039,Choco,Senior Product Manager (E-Commerce),Berlin,LinkedIn,Consumer / e-commerce PM,English is enough,5,1,1,1,0,0,1,0,0,0,1,0,1,1,0,0,0,0,1,0,0,1,ecom
+l106,SWARCO ITS,Product Owner Traffic Domain,Berlin,LinkedIn,Delivery / domain PO,German a plus,5,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,0,0,tech
+l116,Kolibri Games,"Senior PM, LiveOps",Berlin,LinkedIn,Consumer / e-commerce PM,English is enough,5,1,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,b2c
+l121,JustPlay,Senior PM - Fraud,Berlin,LinkedIn,Technical / platform PM,English is enough,4,1,1,1,1,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,1,0,b2c
+l157,Lloyds Bank Deutschland,Senior Product Owner - Digital Channels,Berlin,LinkedIn,Delivery / domain PO,German a plus,5,1,1,1,0,0,0,0,0,0,1,0,1,0,1,0,1,1,0,0,0,0,b2c
+l169,Distribusion Technologies,"Senior Technical PM, Rail Integrations",Berlin,LinkedIn,Technical / platform PM,English is enough,4,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,tech
+l050,Xcede (client unnamed),Senior / Lead Technical PM - AI Trust & Identity,Berlin,LinkedIn,AI product / platform PM,English is enough,5,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,1,1,tech
+l165,GLS/NXT,Product Owner Locker.OS,Berlin,LinkedIn,Delivery / domain PO,German a plus,4,1,1,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,saas
+l096,Everphone,(Senior) Product Owner - Odoo ERP,Berlin,LinkedIn,AI-native builder,German required,3,1,1,1,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,saas
+l099,Edel (earMUSIC),Product Manager Frontline Releases,Hamburg,LinkedIn,Commercial PM,German required,,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,b2c
+l120,smartclip,Technical Product Owner - Full Stack,Berlin,LinkedIn,Technical / platform PM,German required (posting in German),,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,1,0,0,0,1,0,tech
+l136,TAWO,Product Owner AI & Construction Software,Berlin,LinkedIn,AI-native builder,German required,,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,saas
+l159,Kuro,Product Manager (AI platform),Berlin,LinkedIn,AI product / platform PM,German required,5,1,1,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,1,tech
+l164,cadooz,(Senior) Product Owner Digital Products,Hamburg,LinkedIn,Delivery / domain PO,German required,,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,saas
+l173,metiundo,Senior PM - IoT Submetering,Berlin,LinkedIn,Technical / platform PM,German required,5,1,1,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,0,0,tech
+l046,lemon.markets (via Mind Detect),Senior PM - Investing,Berlin,LinkedIn,Technical / platform PM,German required,4,1,1,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,1,0,1,saas
+n01,Flemming Dental,"Senior PO, Operations Software & APIs",Hamburg,Indeed,Delivery / domain PO,German a plus,,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0,saas
+n02,sunzinet,Product Owner - Business Platforms,Hamburg,Indeed,Delivery / domain PO,German required,,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,saas
+n03,Remazing,Senior Product Manager (SaaS),Hamburg,Indeed,Generalist / leadership,German required,3,1,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,ecom
+n04,Quantum computing scale-up (via Leopold Advisors),Product Manager,Hamburg,Indeed,Technical / platform PM,German a plus,,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,tech
+n05,apaleo,"Senior PM, AI Products & Agentic Hospitality",Remote / other,Indeed,AI product / platform PM,English is enough,6,1,1,1,0,0,1,1,1,1,1,0,0,1,0,0,0,0,1,1,1,1,saas
+n06,Upsun,Product Manager (cloud platform),Remote / other,Indeed,AI product / platform PM,English is enough,,1,1,1,0,1,1,1,1,0,1,1,1,0,0,0,0,0,1,0,1,1,tech
+n07,Kaufland e-commerce,"Senior PM, Product Knowledge & Intelligence",Remote / other,Indeed,AI product / platform PM,English is enough,,1,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,1,ecom
+n08,Rhenus Group,IT Product Manager,Berlin,Indeed,Delivery / domain PO,German required (posting in German),,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,saas
+n09,Bundesdruckerei,Product Manager (Digital Financial Services),Berlin,Indeed,Delivery / domain PO,German required,,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,0,0,saas
+n10,Median Kliniken (corporate startup),Product Manager - HealthTech,Berlin,Indeed,Generalist / leadership,German required,5,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,b2c
+n11,NetBird,Technical Product Owner,Berlin,Indeed,Technical / platform PM,English is enough,3,1,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,1,1,0,0,tech
+n12,tink,E-Commerce Product Owner,Berlin,Indeed,Consumer / e-commerce PM,German required,,1,1,1,1,0,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,ecom
+n13,Emma - The Sleep Company,Senior Data PM - Marketing,Remote / other,Indeed,Data PM,English is enough,5,1,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,1,b2c
